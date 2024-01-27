@@ -1,0 +1,123 @@
+* {
+    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f4f4;
+}
+.formR, .formR1 {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(43, 22, 152);
+}
+
+.formR label,
+.formR input,
+.formR select,
+.formR1 label,
+.formR1 input,
+.formR1 select {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.formR input[type="submit"],
+.formR1 input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(43, 22, 152);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formR input[type="submit"]:hover,
+.formR1 input[type="submit"]:hover {
+    background-color: #8a2be2;
+}
+.mainNav {
+    font-size: 22px;
+    background-color: rgb(43, 22, 152);
+    text-align: center;
+    padding: 10px;
+}
+
+.mainNav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 15px;
+}
+
+.mainNav a:hover {
+    color: #fff;
+    background-color: #333333;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.tableS, .tab2 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tableS th, .tableS td,
+.tab2 th, .tab2 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tableS th, .tab2 th {
+    background-color: #f2f2f2;
+}
+
+.tab2 th {
+    background-color: #342285;
+}
+
+.tab2 tr:hover {
+    background-color: #f5f5f5;
+}
+
+.delete-btn, .tab2 button {
+    background-color: #2f97d3;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.tab2 button {
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tab2 button:hover {
+    background-color: #2f97d3;
+}
+
+@media screen and (max-width: 600px) {
+    .formR,
+    .formR1 {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainNav {
+        font-size: 18px;
+    }
+}
